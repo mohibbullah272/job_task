@@ -1,0 +1,200 @@
+body{
+    margin: 0;
+    padding: 0;
+
+    
+}
+/* primary btn */
+.primary_btn {
+    background: linear-gradient(to bottom, #B564F7, #6A2F9B);
+    color: white;
+    padding: 7px 15px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+
+  }
+.accent_btn{
+    
+        border-radius: 20px;
+        padding: 6px 14px;
+        color: #A657E7;
+        background-color: #ffff;
+        border: 1px solid #A657E7;
+}
+/* navbar styling start here */
+#navbar{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header{
+    background-color: #ffff;
+    box-shadow: 2px 2px  0.5px rgba(185, 180, 180, 0.3);  
+}
+#nav_options{
+    display: flex;
+    gap: 10px;
+    color: #344054;
+}
+#login_btn{
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding: 7px 15px;
+    color: black;
+    background-color: #ffff;
+    border: 1px solid gray;
+}
+#login_container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#menu{
+    background-color: #ffff;
+    border: none;
+
+}
+.hidden{
+    display: none;
+}
+#menu_container{
+    position: absolute;
+    top: 30px;
+    left: 80px;
+    padding: 20px;
+    z-index: 1;
+    background-color: rgba(78, 76, 76, 0.5); 
+    
+}
+/* navbar styling end  here */
+
+
+/* banner styling start here */
+#banner{
+    max-width: 1200px;
+    display: flex;
+    margin: auto;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.banner_short_title{
+    display: flex;
+    width: 200px;
+    padding: 5px;
+    border-radius: 10px;
+    align-items: center;
+    gap: 5px;
+    color: gray;
+    background-color: #ffff;
+    box-shadow: 2px 2px  0.5px rgba(185, 180, 180, 0.3);
+}
+#banner_title{
+    font-size: 26px;
+}
+#stylish_heading {
+    font-weight: bold;
+    background: linear-gradient(
+      to right,
+      #2B034D,
+      #B564F7,
+      #2B034D,
+      #EF90FF
+    ); 
+    background-clip: text;
+    color: transparent;
+
+
+  }
+#play_btn{
+    position:absolute;
+    bottom: 100px;
+    left: 105px;
+    padding: 7px;
+    border-radius: 70%;
+    backdrop-filter: blur(8px);
+}
+#img_card{
+    position: relative;
+}
+#banner_img_side{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#social_container{
+   display: flex;
+   justify-content: start;
+
+
+}
+#social_container_logo{
+    display: flex;
+    gap: 10px;
+}
+/* banner styling end here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 576px) {
+    #menu{
+        display: inline;
+    }
+    #nav_options{
+        display: none;
+    }
+    #banner{
+        flex-direction: column;
+        padding: 10px;
+        gap: 10px;
+        align-items: start;
+      
+    }
+    #banner_img_side{
+        display: block;
+        align-items: center;
+        gap: 10px;
+    }
+  }
+  
+
+  @media only screen and (min-width: 577px) and (max-width: 991px) {
+    #menu{
+        display: inline;
+    }
+    #nav_options{
+        display: none;
+    }
+
+    #banner{
+        flex-direction: column;
+        gap: 10px;
+        gap: 10px;
+        align-items: start;
+    }
+
+  }
+  
+
+  @media only screen and (min-width: 992px) {
+
+  }
+  
