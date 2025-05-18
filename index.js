@@ -61,3 +61,22 @@ document.addEventListener('DOMContentLoaded', function() {
     
 
 });
+
+
+  const options = document.querySelectorAll('.payment_options');
+
+  options.forEach(option => {
+    const radio = option.querySelector('input[type="radio"]');
+
+    option.addEventListener('click', () => {
+
+      options.forEach(o => {
+        o.classList.remove('selected');
+      });
+
+
+      option.classList.add('selected');
+      radio.checked = true;
+    });
+  });
+

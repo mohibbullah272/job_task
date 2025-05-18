@@ -1,8 +1,9 @@
 *{
     margin: 0;
     padding: 0; 
+   
 }
-/* primary btn */
+/* primary btn & utility */
 .primary_btn {
     background: linear-gradient(to bottom, #B564F7, #6A2F9B);
     color: white;
@@ -12,6 +13,7 @@
     cursor: pointer;
 
   }
+
 .accent_btn{
     
         border-radius: 20px;
@@ -19,6 +21,11 @@
         color: #A657E7;
         background-color: #ffff;
         border: 1px solid #A657E7;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 /* navbar styling start here */
 #navbar{
@@ -176,9 +183,105 @@ padding: 20px 40px;
     height: 70%;
     background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, #000000 49.44%, rgba(102, 102, 102, 0) 100%);
   }
-  /* stats styling end here */
-  
+/* turn your video section style  */
+.img_card_container{
+    display: grid;
+    gap: 10px;
+    padding: 10px;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 50px;
+    justify-items: center;
+}
+.content_card{
+    display: flex;
+    width: 280px;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 1px solid #D0D5DD;
+
+}
+.content_card_container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    padding: 10px;
+    justify-items: center;
+    margin-top: 50px;
+}
+.content_card p {
+    color: #344054;
+}
 /*  pricing section style start here */
+.pricing_container{
+    background-color: #FFFFFF;
+    padding: 30px  15px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.payment_options{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #D0D5DD;
+    padding: 24px;
+    background-color: white;
+    border-radius: 10px;
+}
+.payment_container{
+    width: 50%;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.payment_options.selected {
+    border: 2px solid #7e22ce; 
+    box-shadow: 0 0 5px rgba(126, 34, 206, 0.3);
+  }
+  
+  .payment_options input[type="radio"] {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #D0D5DD;
+    border-radius: 50%;
+    position: relative;
+
+  }
+  
+  .payment_options input[type="radio"]::before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 1px;
+    width: 15px;
+    height: 15px;
+    background-color: #7e22ce;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: transform 0.2s ease;
+  }
+  
+  .payment_options input[type="radio"]:checked::before {
+    transform: scale(1);
+  }
+  .pricing{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+
+  }
+
+
+
+
+
 
 /* business  videos card  style start here*/
 #card_container{
@@ -237,6 +340,7 @@ feedback section start here
 
 
 /* footer design start here */
+
 .footer {
     background-color: #fff;
     border-top: 1px solid #eee;
@@ -507,7 +611,19 @@ feedback section start here
     .accordion-content p {
         font-size: 14px;
     }
-
+    .img_card_container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .content_card_container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .pricing{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .payment_options{
+        width: 200px;
+    }
   }
   
 
@@ -556,8 +672,16 @@ feedback section start here
     .accordion-header h3 {
         font-size: 15px;
     }
-    
-  
+    .img_card_container{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .content_card_container{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .pricing{
+        flex-direction: column;
+        gap: 20px;
+    }
   }
   
 

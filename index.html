@@ -39,8 +39,7 @@
 <main style="background-color: #E6E6E6;">
 <!-- banner -->
 <section style=" 
-background-color: #E6E6E6;
-position: relative;">
+    position: relative;">
     <div id="banner">
     <!-- content side-->
     <div>
@@ -58,14 +57,18 @@ position: relative;">
         <div id="banner_img_side">
         <!--banner img card1 -->
         <div class="img_card">
-            <img  style="width: 250px; border-radius: 10px;" src="./assets/banner_img.png" alt="">
+            <img  style="width: 250px;
+             border-radius: 10px;
+             " src="./assets/banner_img.png" alt="">
            <div class="play_btn">
             <img width="25px" src="./assets/icons8-play-50.png" alt="">
            </div>
         </div>
         <!--banner img card2 -->
         <div class="img_card">
-            <img  style="width: 250px; border-radius: 10px;" src="./assets/banner_img.png" alt="">
+            <img  style="width: 250px; 
+            border-radius: 10px;
+            " src="./assets/banner_img.png" alt="">
            <div class="play_btn">
             <img width="25px" src="./assets/icons8-play-50.png" alt="">
            </div>
@@ -78,7 +81,10 @@ position: relative;">
 <div  id="social_container">
     <div style="flex: 1;"></div>
 <div style="flex: 0 0 300px;">
-<div style="background-color: #FFFFFF; padding: 4px; border-radius: 10px;">
+<div style="background-color: #FFFFFF;
+            padding: 4px;
+            border-radius: 10px;
+  ">
     <p>Social channel we work with</p>
     <div id="social_container_logo">
     <img width="30px " src="./assets/icons8-instagram-logo-94.png" alt="">
@@ -117,85 +123,287 @@ id="stat_container">
    </div>
 </section>
 <!-- pricing section -->
-<!--    <section>
+  <section style="
+        max-width: 1200px;
+        margin: auto;
+        margin-top: 100px;
+        margin-bottom: 100px;">
     <div style="text-align: center; ">
-      <h3 style="font-size: 48px; margin: 10px;">All-Inclusive <span style="color: #A554E6;">Creative Services</span></h3>
-      <p style="width: 70%; margin: auto;">Our fixed monthly rate covers all your creative needs, with predictable pricing, no contracts, and unlimited revisions. Explore our services to find the perfect solution for your brand's growth!</p>
+      <h3 style="
+        font-size: 48px;
+        margin: 10px;
+       ">All-Inclusive <span style="color: #A554E6;">Creative Services</span></h3>
+      <p style="
+         width: 70%;
+         margin: auto;
+         margin-bottom: 30px;
+         color: #344054;
+         ">Our fixed monthly rate covers all your creative needs, with predictable pricing, no contracts, and unlimited revisions. Explore our services to find the perfect solution for your brand's growth!</p>
     </div>
-    <div>
-        <div>
-            <div>
-                <h3 style="display: flex; align-items: center; gap: 5px; font-size: 24px; font-weight: 500;"><img width="48px" src="./assets/Group.png" alt="">What We provide ?</h3>
+    <div class="pricing_container">
+        <div class="pricing">
+            <!-- text content -->
+            <div style="width: 50%;">
+                <h3 style="
+                    display: flex;
+                    align-items: center;
+                    gap: 5px;
+                    font-size: 24px;
+                    font-weight: 500;
+                    margin: 20px 0px;
+                     "><img width="40px" src="./assets/Group.png" alt="">What We provide ?</h3>
        
                 <div>
-                    <div>
-                        <img src="./assets/signMark.png" alt="signMark">
-                        <p>Low-cost, high quality</p>
+                    <div style="margin: 20px 0px;" class="flex">
+                        <img width="18px" src="./assets/signMark.png" alt="signMark">
+                        <p style="color: #101828; font-weight: 500;">Low-cost, high quality</p>
                     </div>
-                <p>Most agencies charge way too much. We are a lean team with streamlined workflows and a platform built from the ground up that allows us to charge much less.</p>
+                <p style="color: #344054; width: 90%;">Most agencies charge way too much. We are a lean team with streamlined workflows and a platform built from the ground up that allows us to charge much less.</p>
                 </div>
        
                 <div>
-                    <div>
-                        <img src="./assets/signMark.png" alt="signMark">
-                        <p>Low-cost, high quality</p>
-                    </div>
-                <p>Most agencies charge way too much. We are a lean team with streamlined workflows and a platform built from the ground up that allows us to charge much less.</p>
+                    <div style="margin: 20px 0px;" class="flex">
+                        <img width="18px" src="./assets/signMark.png" alt="signMark">
+                        <p style="color: #101828; font-weight: 500;">Full transparency</p>
+                    </div> 
+                <p style="color: #344054; width: 90%;">Most agencies charge way too much. We are a lean team with streamlined workflows and a platform built from the ground up that allows us to charge much less.</p>
                 </div>
           
                 <div>
-                    <div>
+                    <div style="margin: 20px 0px;" width="18px" class="flex">
                         <img src="./assets/signMark.png" alt="signMark">
-                        <p>Low-cost, high quality</p>
+                        <p style="color: #101828; font-weight: 500;">Cancel anytime</p>
                     </div>
-                <p>Most agencies charge way too much. We are a lean team with streamlined workflows and a platform built from the ground up that allows us to charge much less.</p>
+                <p style="color: #344054; width: 90%;">We don't believe in locking you into long contracts. You are free to leave us at any time, but you will just want to stay forever.</p>
                 </div>
             </div>
-
-            <div></div>
-
+            <!-- payment options -->
+            <div class="payment_container">
+                <div class="payment_options">
+                  <div>
+                    <h3 style="color: #1D2939;">5 Short form video - $99/ 1 week</h3>
+                    <p style="color: #344054;">Tailored graphic and video content packages.</p>
+                  </div>
+                  <input type="radio" name="payment">
+                </div>
+              
+                <div class="payment_options">
+                  <div>
+                    <h3 style="color: #1D2939;">10 Reels - $199/ 2 weeks</h3>
+                    <p style="color: #344054;">High engagement reels package.</p>
+                  </div>
+                  <input type="radio" name="payment">
+                </div>
+              
+                <div class="payment_options">
+                  <div>
+                    <h3 style="color: #1D2939;">15 Shorts - $249/ 1 month</h3>
+                    <p style="color: #344054;">Full content calendar with branding.</p>
+                  </div>
+                  <input type="radio" name="payment">
+                </div>
+              </div>
             </div>
-            <div>
-             
-               <button>Get Started</button>
+
+            <div style="
+                display: flex;
+                justify-content: center;
+                margin-top: 30px;
+                margin-bottom: 30px;">
+               <button class="primary_btn"> Get Started</button>
             </div>
     </div>
 
 
-  </section> -->
-<!-- videos for business -->
+  </section> 
+<!-- turn your video section  -->
+<section style="
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+">
+<h3 style="
+    font-size: 48px;
+    text-align: center;
+ ">Turn your raw video into <span style="color: #A554E6;">engaging clip</span></h3>
+<!-- img card container -->
+<div class="img_card_container">
+    <!-- img card -->
+ <div style="
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    padding: 10px;">
+    <div style="
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    ">
+        <img src="./assets/signMark2.png" alt="signMark">
+        <p style="font-size: 20px;">We take raw video and/or <br> premium
+            stock footage</p>
+    </div>
+    <br>
+        <img style="
+        width: 300px;
+        border-radius: 20px;
+        " src="./assets/computer_img.jpg" alt="">
+        <br>
+        <p style="
+        text-align: center;
+        color: #344054;
+        ">Share your long-form videos or raw clips with us. Our team will help you choose the best hooks & content from your video. Our team will help you choose the best hooks & content from your video.</p>
+ </div>
+ <div style="
+ 
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    padding: 10px;">
+    <div style="
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    ">
+        <img src="./assets/signMark2.png" alt="signMark">
+        <p style="font-size: 20px;">We take raw video and/or <br> premium
+            stock footage</p>
+    </div>
+    <br>
+        <img style="
+        width: 300px;
+        border-radius: 20px;
+        " src="./assets/computer_img.jpg" alt="">
+        <br>
+        <p style="
+        text-align: center;
+        color: #344054;
+        ">Share your long-form videos or raw clips with us. Our team will help you choose the best hooks & content from your video. Our team will help you choose the best hooks & content from your video.</p>
+ </div>
+ <div style="
+
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    padding: 10px;">
+    <div style="
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    ">
+        <img src="./assets/signMark2.png" alt="signMark">
+        <p style="font-size: 20px;">We take raw video and/or <br> premium
+            stock footage</p>
+    </div>
+    <br>
+        <img style="
+        width: 300px;
+        border-radius: 20px;
+        " src="./assets/computer_img.jpg" alt="">
+        <br>
+        <p style="
+        text-align: center;
+        color: #344054;
+        ">Share your long-form videos or raw clips with us. Our team will help you choose the best hooks & content from your video. Our team will help you choose the best hooks & content from your video.</p>
+ </div>
+</div>
+<!-- content card container -->
+<div class="content_card_container">
+<!-- content card -->
+<div class="content_card">
+<h3>Instagram Reels</h3>
+<p>Share your long-form videos or raw clips with us. Our team will help you choose the best hooks & content from your video.</p>
+</div>
+<div class="content_card">
+<h3>Tik Tok videos</h3>
+<p>Share your long-form videos or raw clips with us. Our team will help you choose the best hooks & content from your video.</p>
+</div>
+<div class="content_card">
+<h3>Instagram Reels</h3>
+<p>Share your long-form videos or raw clips with us. Our team will help you choose the best hooks & content from your video.</p>
+</div>
+<div class="content_card">
+<h3>YouTube shorts</h3>
+<p>Share your long-form videos or raw clips with us. Our team will help you choose the best hooks & content from your video.</p>
+</div>
+<div class="content_card">
+<h3>Educational shorts</h3>
+<p>Share your long-form videos or raw clips with us. Our team will help you choose the best hooks & content from your video.</p>
+</div>
+<div class="content_card">
+    <h3>YouTube shorts</h3>
+    <p>Share your long-form videos or raw clips with us. Our team will help you choose the best hooks & content from your video.</p>
+    </div>
+
+</div>
+</section>
+  <!-- videos for business -->
 <section style="
 max-width: 1200px;
 margin: auto;
 margin-top: 100px;
 margin-bottom:100px ;
 ">
-    <h3 class="videosTitle">Videos <img style="width: 120px; height: 28px; object-fit: cover; border: 4px solid #A554E6; border-radius: 20px;
+    <h3 class="videosTitle">Videos <img style="
+        width: 120px;
+        height: 28px;
+        object-fit: cover;
+        border: 4px solid #A554E6;
+        border-radius: 20px;
         " src="./assets/title_img.jpg" alt=""> For <span style="color: #A554E6;">business</span></h3>
         <div  id="card_container">
             <div class="img_card">
-                <img  style="width: 230px; object-fit: cover; height: 230px; border-radius: 10px;" src="./assets/happy_women.jpg" alt="">
+                <img  style="
+                width: 230px;
+                object-fit: cover;
+                height: 230px; 
+                border-radius: 10px;" src="./assets/happy_women.jpg" alt="">
                <div style="bottom: 120px;"  class="play_btn">
                 <img width="25px" src="./assets/icons8-play-50.png" alt="">
                </div>
                <p style="text-align: center;">Health & Wealth</p>
             </div>
             <div class="img_card">
-                <img  style="width: 230px; object-fit: cover; height: 230px; border-radius: 10px;" src="./assets/financial_manager.jpg" alt="">
+                <img  style="
+                    width: 230px;
+                    object-fit: cover;
+                    height: 230px;
+                    border-radius: 10px;
+                       " src="./assets/financial_manager.jpg" alt="">
                <div style="bottom: 120px;"  class="play_btn">
                 <img width="25px" src="./assets/icons8-play-50.png" alt="">
                </div>
                <p style="text-align: center;">Financial services</p>
             </div>
             <div class="img_card">
-                <img  style="width: 230px; object-fit: cover; height: 230px; border-radius: 10px;" src="./assets/banner_img.png" alt="">
+                <img  style="
+                    width: 230px;
+                    object-fit: cover;
+                    height: 230px; 
+                    border-radius: 10px;
+                      " src="./assets/banner_img.png" alt="">
                <div style="bottom: 120px;"  class="play_btn">
                 <img width="25px" src="./assets/icons8-play-50.png" alt="">
                </div>
                <p style="text-align: center;">Real estate</p>
             </div>
             <div class="img_card">
-                <img  style="width: 230px; object-fit: cover; height: 230px; border-radius: 10px;" src="./assets/computer_img.jpg" alt="">
+                <img  style="
+                    width: 230px;
+                    object-fit: cover;
+                    height: 230px;
+                    border-radius: 10px;
+                       " src="./assets/computer_img.jpg" alt="">
                <div style="bottom: 120px;" class="play_btn">
                 <img width="25px" src="./assets/icons8-play-50.png" alt="">
                </div>
@@ -212,32 +420,57 @@ margin-bottom:100px ;
     margin-top: 100px;
     margin-bottom:100px;
     ">
-    <h3 class="videosTitle">Videos <img style="width: 120px; height: 28px; object-fit: cover; border: 4px solid #A554E6; border-radius: 20px;
+    <h3 class="videosTitle">Videos <img style="
+    width: 120px;
+    height: 28px;
+    object-fit: cover;
+    border: 4px solid #A554E6;
+    border-radius: 20px;
         " src="./assets/title_img.jpg" alt=""> For <span style="color: #A554E6;">personal brands</span></h3>
         <div  id="card_container">
             <div class="img_card">
-                <img  style="width: 230px; object-fit: cover; height: 230px; border-radius: 10px;" src="./assets/women_cycaling.jpg" alt="">
+                <img  style="
+                width: 230px;
+                object-fit: cover;
+                height: 230px;
+                border-radius: 10px;
+                   " src="./assets/women_cycaling.jpg" alt="">
                <div style="bottom: 120px;"  class="play_btn">
                 <img width="25px" src="./assets/icons8-play-50.png" alt="">
                </div>
                <p style="text-align: center;">Health & Wealth</p>
             </div>
             <div class="img_card">
-                <img  style="width: 230px; object-fit: cover; height: 230px; border-radius: 10px;" src="./assets/man_cycaling.jpg" alt="">
+                <img  style="
+                    width: 230px;
+                    object-fit: cover;
+                    height: 230px;
+                    border-radius: 10px;
+                       " src="./assets/man_cycaling.jpg" alt="">
                <div style="bottom: 120px;"  class="play_btn">
                 <img width="25px" src="./assets/icons8-play-50.png" alt="">
                </div>
                <p style="text-align: center;">Financial services</p>
             </div>
             <div class="img_card">
-                <img  style="width: 230px; object-fit: cover; height: 230px; border-radius: 10px;" src="./assets/Home_service.jpg" alt="">
+                <img  style="
+                    width: 230px;
+                    object-fit: cover;
+                    height: 230px;
+                    border-radius: 10px;
+                       " src="./assets/Home_service.jpg" alt="">
                <div style="bottom: 120px;"  class="play_btn">
                 <img width="25px" src="./assets/icons8-play-50.png" alt="">
                </div>
                <p style="text-align: center;">Real estate</p>
             </div>
             <div class="img_card">
-                <img  style="width: 230px; object-fit: cover; height: 230px; border-radius: 10px;" src="./assets/computer_img.jpg" alt="">
+                <img  style="
+                    width: 230px;
+                    object-fit: cover;
+                    height: 230px;
+                    border-radius: 10px;
+                       " src="./assets/computer_img.jpg" alt="">
                <div style="bottom: 120px;" class="play_btn">
                 <img width="25px" src="./assets/icons8-play-50.png" alt="">
                </div>
@@ -292,13 +525,18 @@ padding: 50px 0px;
   gap: 5px;
   "
   >
-    Client Stories See <img style="width: 120px; height: 28px; object-fit: cover; border: 4px solid #A554E6; border-radius: 20px;
+    Client Stories See <img style="width: 120px;
+     height: 28px;
+    object-fit: cover;
+    border: 4px solid #A554E6;
+    border-radius: 20px;
     " src="./assets/title_img.jpg" alt="">
   </span> 
          <span style="color: #A554E6;">Our Partners Say</span>
         </div>
         <div  id="card_container">
-            <div style="position: relative;" class="img_card">
+            <div style="
+                position: relative;" class="img_card">
                 <img  style="
                 width: 230px;
                 object-fit: cover;
@@ -664,19 +902,21 @@ margin: auto;
 </div>
 </section>
 <!-- FAQ Section -->
-
-
-<section style="max-width: 1200px; margin: auto;">
+<section style="
+max-width: 1200px;
+margin: auto;
+margin-top: 100px;
+margin-bottom: 100px;
+ ">
     <div class="faq-container">
         <div class="faq-header">
             <h2>Frequently asked <span style="color: #a64eee;;">questions</span></h2>
             <p>If you have any questions that aren't listed below, feel free to schedule a demo to speak with someone from our team.</p>
         </div>
 
-        <div class="accordion">
-          
+        <div class="accordion"> 
             <div class="accordion-item">
-                <!-- 1 -->
+          
                 <div class="accordion-header">
                     <h3>What cars do you have in your inventory?</h3>
                     <div class="toggle-icon">
@@ -690,7 +930,7 @@ margin: auto;
 
         
             <div class="accordion-item">
-                <!-- 2 -->
+             
                 <div class="accordion-header">
                     <h3>What cars do you have in your inventory?</h3>
                     <div class="toggle-icon">
@@ -746,7 +986,6 @@ margin: auto;
 </main>
 <footer class="footer">
     <div class="footer-container">
-  
         <div class="footer-column">
             <div class="logo">Logo</div>
             <div class="about-us">
